@@ -1,10 +1,12 @@
 import { Component, signal } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import axios from 'axios';
 import { Flightmodel } from '../../models/flight.model';
 
+
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
